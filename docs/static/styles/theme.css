@@ -1,0 +1,38 @@
+.md-search {
+    display: none;
+}
+
+.md-sidebar--secondary {
+    display: none !important;
+}
+
+.blog-post-extra {
+    display: none;
+}
+
+.md-logo {
+    display: none !important;
+}
+
+.md-site-name {
+    position: relative;
+    left: -1rem;
+}
+
+a {
+    transition: ease 0.3s !important;
+}
+
+img {
+    border-radius: 0.5em !important;
+}
+
+.md-clipboard {
+    color: grey !important;
+    transition: ease 0.3s !important;
+}
+
+.md-clipboard:hover {
+    color: #269115 !important;
+    transition: ease 0.3s !important;
+}

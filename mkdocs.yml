@@ -1,7 +1,52 @@
 site_name: Adam Atbi
-
+site_url: https://adamatbi.com
 nav:
-- Home: index.md
+- About: index.md
+- Resume: resume.md
+- Projects: projects.md
 
 theme:
   name: material
+  custom_dir: docs/static/custom
+  font:
+    text: Inter
+    code: Ubuntu Mono
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - search.suggest
+    - content.code.copy
+    - content.code.annotate
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+
+extra_css:
+  - static/styles/theme.css
+  - static/styles/jupyter.css
+
+
+plugins:
+  - roamlinks
+  - blogging:
+      dirs:
+        - projects
+      locale: ca_ES
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.highlight:
+      use_pygments: true
+  - pymdownx.superfences
+
+
+extra:
+  generator: false

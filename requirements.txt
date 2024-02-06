@@ -1,0 +1,2 @@
+mkdocs-blogging-plugin
+mkdocs-roamlinks-plugin
