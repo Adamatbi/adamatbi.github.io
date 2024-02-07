@@ -19,6 +19,7 @@
     left: -1rem;
 }
 
+
 a {
     transition: ease 0.3s !important;
 }
@@ -35,4 +36,9 @@ img {
 .md-clipboard:hover {
     color: #269115 !important;
     transition: ease 0.3s !important;
+}
+
+.img-quarter-width {
+    width: 25% !important;
+    height: auto !important;
 }

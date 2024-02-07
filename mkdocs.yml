@@ -13,13 +13,12 @@ theme:
     code: Ubuntu Mono
   palette:
     - scheme: default
-      toggle:
-        icon: material/brightness-7
-        name: Switch to dark mode
-    - scheme: slate
-      toggle:
-        icon: material/brightness-4
-        name: Switch to light mode
+      primary: blue grey
+      accent: blue
+      background: white
+      text: black
+      code: black
+
   features:
     - search.suggest
     - content.code.copy
