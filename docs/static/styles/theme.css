@@ -42,3 +42,8 @@ img {
     width: 25% !important;
     height: auto !important;
 }
+
+.img-half-width {
+    width: 50% !important;
+    height: auto !important;
+}
